@@ -1,0 +1,97 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans&display=swap');
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+    font-family: 'Open Sans', sans-serif;
+}
+
+body{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+    background-color: #b7e0c1;
+}
+
+.container{
+    width: 700px;
+    background-color: aliceblue;
+    border-radius: 10px;
+    padding: 20px;
+}
+
+.box{
+    border-radius: 5px;
+    border: 1px solid rgb(248, 208, 135)
+}
+
+
+.controls, .controls li, .icons, .icons i{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.controls .icons i{
+    width: 40px;
+    color:purple;
+    font-size: 16px;
+    cursor: pointer;
+    justify-content:center;
+
+}
+
+.controls .icons{
+    width: 35%;
+}
+
+ul{
+    list-style: none;
+    padding: 12px 5px;
+
+}
+
+.text-controls textarea{
+    height: 250px;
+    width: 100%;
+    border:none;
+    outline: none;
+    font-size: 18px;
+    border-radius: 5px;
+    background: none;
+    padding: 10px 15px;
+    resize: none;
+}
+
+.to-text{
+    border-left: 5px solid rgb(248, 208, 135) !important;
+    border-radius: none;
+}
+
+
+.text-controls{
+    display:flex;
+    align-items: center;
+    justify-content: space-between;
+    border-top: 1px solid rgb(248, 208, 135);
+}
+
+button{
+    background-color: white;
+    border:none;
+    color: rgb(95, 5, 5);
+    padding: 10px 20px;
+    width: 100%;
+    margin-top: 5px;
+    font-size: 16px;
+    transition-duration: .4s;
+    cursor: pointer;
+
+}
+
+button:hover{
+    background-color: rgb(233, 146, 207);
+    color: black;
+    border:2px solid rgb(248, 208, 135);
+}
